@@ -5,13 +5,14 @@ package.domain = org.punjabpharmacy
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,db
 version = 1.0
-requirements = python3,kivy,sqlite3
+requirements = python3,kivy
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
+android.archs = arm64-v8a
 android.accept_sdk_license = True
 
 [buildozer]
